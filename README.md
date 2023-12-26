@@ -5,9 +5,9 @@ The project is built with HTML, CSS, and JavaScript for the front end and the Ja
 
 ## Tools Needed
 ---
-1.Eclipse or any IDE where Java code can be run.
-2.MySQL workbench
-3.Java JDK(1.8 better)
+1 Eclipse or any IDE where Java code can be run.
+* MySQL workbench
+* Java JDK(1.8 better)
 
 ## Using
 ---
