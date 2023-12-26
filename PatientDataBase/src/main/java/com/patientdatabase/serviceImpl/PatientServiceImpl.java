@@ -36,7 +36,7 @@ public class PatientServiceImpl implements PatientService {
 			repo.save(presentPatient);
 			return presentPatient;
 		} else {
-			throw new PatientNotFoundException("student not found by id " + id);
+			return null;
 		}
 
 	}
@@ -54,7 +54,7 @@ public class PatientServiceImpl implements PatientService {
 			}
 			return list;
 		} else {
-			throw new PatientNotFoundException("no student found");
+			return null;
 
 		}
 	}
@@ -67,7 +67,7 @@ public class PatientServiceImpl implements PatientService {
 			Patient presentPatient = opPatient.get();
 			return presentPatient;
 		} else {
-			throw new PatientNotFoundException("student not found by id " + id);
+			return null;
 		}
 
 	}
@@ -81,7 +81,7 @@ public class PatientServiceImpl implements PatientService {
 			repo.delete(patient);
 			return patient;
 		} else {
-			throw new PatientNotFoundException("student not found by id " + id);
+			return null;
 		}
 	}
 }

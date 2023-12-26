@@ -46,7 +46,7 @@ public class PatientController {
 	@PostMapping("/save")
 	public String savePatient(@ModelAttribute Patient p) {
 		service.saveData(p);
-		return "redirect:/patients/allData";
+		return "redirect:/patients/home";
 	}
 
 	// url="/patients/allData"
