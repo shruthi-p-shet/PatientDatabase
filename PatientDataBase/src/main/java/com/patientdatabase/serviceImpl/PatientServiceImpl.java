@@ -21,8 +21,14 @@ public class PatientServiceImpl implements PatientService {
 	// This method will save data to database
 	@Override
 	public Patient saveData(Patient patient) {
-		repo.save(patient);
-		return patient;
+		if(patient.getPatientActivityStatus().equals("In-Hospital")) {
+			repo.save(patient);
+			return patient;
+			
+		}else {
+			repo.delete(patient);
+		return null;
+		}
 	}
 
 	// This method will update the change made to the existing row of database based
