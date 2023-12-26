@@ -2,15 +2,13 @@
 A fully functional project written in Java to store and manage Patients data in hospitals.
 ---
 The project is built with HTML, CSS, and JavaScript for the front end and the Java Spring Boot framework for the back-end. A MySQL database is utilized to store the patient data. From this project I have made it possible for users to add patient data, update previously entered data, and view all database-stored data. They may even remove data if it is not needed.
-
-## Tools Needed
 ---
+## Tools Needed
 * Eclipse or any IDE where Java code can be run.
 * MySQL workbench
 * Java JDK(1.8 better)
-
-## Using
 ---
+## Using
 * Clone this repository into your local machine
 * Open PatientDatabase folder using IDE(eclipse)
 * go to MySQL and create a schema patient_details
