@@ -22,10 +22,11 @@ A fully functional project written in Java to store and manage Patients data in 
 * when you click view patient you will see all patient details with edit and delete button
 * clicking on edit you update the existing details and clicking delete you can delete the patient details
 * __NOTE__:once the patient get discharged their details will be get deleted
-  sample of add new patient
-  Name:anika
-  Age:25
-  Desease:corona
-  Desease Status:positive
-  Mobile number:9865741236
-  Activity Status:In-hospital
+
+ __sample of add new patient__
+  * Name:anika
+  * Age:25
+  * Desease:corona
+  * Desease Status:positive
+  * Mobile number:9865741236
+  * Activity Status:In-hospital
